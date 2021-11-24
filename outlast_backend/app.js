@@ -8,7 +8,7 @@ const PORT = 8080;
 app.use(express.json())
 app.use(cors())
 
-app.listen(PORT, () => console.log("server runninng"));
+app.listen(PORT, () => console.log("server running"));
 
 app.get("/get-favorites", (req, resp) => {
   let data = [];
